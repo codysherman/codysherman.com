@@ -1,7 +1,6 @@
 /* Don't forget to vendor prefix */
 
 *:not(.letsGo-animate) {
-    -webkit-transition: width 0.4s, height 0.4s, font-size 0.4s, font-weight 0.4s;
     transition: width 0.4s, height 0.4s, font-size 0.4s, font-weight 0.4s;
 }
 
@@ -22,22 +21,19 @@ body {
 
 h1 {
     font-weight: 700;
-    /*text-align: center;*/
     font-size: 70px;
     color: #02A6A9;
     margin-top: 50px;
 }
 h2 {
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 30px;
-    /*text-align: center;*/
     font-style: italic;
 }
 
-p#about {
+#about {
     margin-top: 15px;
     font-size: 18px;
-    /*max-width: 458px;*/
 }
 
 p {
@@ -95,8 +91,6 @@ a.card-card, a.card-card:hover, a.card-card:focus, a.card-card:active, a.card-ca
     color: #333;
 }
 
-
-
 .card-logo {
     height: 90px;
 }
@@ -109,14 +103,12 @@ a.card-card, a.card-card:hover, a.card-card:focus, a.card-card:active, a.card-ca
     fill: #fff;
 }
 
-
-
 #card-frow .card-logo {
     background-color: #2A6A9A;
 }
 
 #card-letsgo .card-logo {
-    background-color: #4EF1C5;
+    background-color: #3ac371;
 }
 
 #card-internrocket .card-logo {
@@ -137,7 +129,6 @@ a.card-card, a.card-card:hover, a.card-card:focus, a.card-card:active, a.card-ca
 
 .card-title {
     font-size: 23px;
-    /*text-align: center;*/
     font-weight: 400;
     margin: 10px 0;
 }
@@ -145,5 +136,4 @@ a.card-card, a.card-card:hover, a.card-card:focus, a.card-card:active, a.card-ca
 .card-position {
     margin-top: 17px;
     font-weight: 400;
-    /*font-style: italic;*/
 }
