@@ -1,139 +1,153 @@
 /* Don't forget to vendor prefix */
 
 *:not(.letsGo-animate) {
-    transition: width 0.4s, height 0.4s, font-size 0.4s, font-weight 0.4s;
+  transition: width 0.4s, height 0.4s, font-size 0.4s, font-weight 0.4s;
 }
 
-html, body, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-    height: 100%;
-    background-color: #f8f8f8;
+html,
+body {
+  height: 100%;
+  background-color: #f8f8f8;
 }
 
 body {
-    font-family: 'Roboto';
-    padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 30px;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 70px;
-    color: #02A6A9;
-    margin-top: 50px;
+  font-weight: 700;
+  font-size: 70px;
+  color: #02a6a9;
+  margin-top: 50px;
 }
 h2 {
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-style: italic;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-style: italic;
 }
 
 #about {
-    margin-top: 15px;
-    font-size: 18px;
+  margin-top: 15px;
+  font-size: 18px;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .category {
-    margin-top: 50px;
-    margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 #social a {
-    margin-right: 15px;
-    font-size: 18px;
+  margin-right: 15px;
+  font-size: 18px;
 }
 
-#social a:active, #social a:focus, #social a:visited {
-    text-decoration: none;
-    color: #333;
+#social a:active,
+#social a:focus,
+#social a:visited {
+  text-decoration: none;
+  color: #333;
 }
 
 #social a:hover {
-    text-decoration: none;
-    color: #02A6A9;
+  text-decoration: none;
+  color: #02a6a9;
 }
 
 .card-card {
-    display: block;
-    min-height: 270px;
-    background-color: #fff;
-    font-weight: 300;
-    margin-bottom: 20px;
-    position: relative;
-    -webkit-transition: box-shadow 0.3s;
-    transition: box-shadow 0.3s;
+  display: block;
+  min-height: 270px;
+  background-color: #fff;
+  font-weight: 300;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 .card-card:hover {
-    box-shadow: 0 1px 7px 0 #a0a0a0
+  box-shadow: 0 1px 7px 0 #a0a0a0;
 }
 
 .beta {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    color: #02A6A9;
-    background-color: #fff;
-    font-size: 18px;
-    border-radius: 3px;
-    padding: 2px 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #02a6a9;
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 2px 5px;
 }
 
-a.card-card, a.card-card:hover, a.card-card:focus, a.card-card:active, a.card-card:visited {
-    text-decoration: none;
-    color: #333;
+a.card-card,
+a.card-card:hover,
+a.card-card:focus,
+a.card-card:active,
+a.card-card:visited {
+  text-decoration: none;
+  color: #333;
 }
 
 .card-logo {
-    height: 90px;
+  height: 90px;
 }
 
 .card-logo svg {
-    width: 100%;
-    height: 100%;
-    max-width: 150px;
-    max-height: 45px;
-    fill: #fff;
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 45px;
+  fill: #fff;
 }
 
 #card-frow .card-logo {
-    background-color: #339be8;
+  background-color: #339be8;
 }
 
 #card-letsgo .card-logo {
-    background-color: #3ac371;
+  background-color: #3ac371;
 }
 
 #card-internrocket .card-logo {
-    background-color: #F44336;
+  background-color: #f44336;
 }
 
 #card-begin .card-logo {
-    background-color: #12D8B7;
+  background-color: #12d8b7;
 }
 
 #card-qikpix .card-logo {
-    background-color: #00c6e0;
+  background-color: #00c6e0;
 }
 
 .card-info {
-    padding: 25px 15px 15px;
+  padding: 25px 15px 15px;
 }
 
 .card-title {
-    font-size: 23px;
-    font-weight: 400;
-    margin: 10px 0;
+  font-size: 23px;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 .card-position {
-    margin-top: 17px;
-    font-weight: 400;
+  margin-top: 17px;
+  font-weight: 400;
 }
