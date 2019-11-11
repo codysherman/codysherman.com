@@ -89,7 +89,6 @@ p {
   position: absolute;
   top: 5px;
   right: 5px;
-  color: #02a6a9;
   background-color: #fff;
   font-size: 18px;
   border-radius: 3px;
@@ -119,6 +118,10 @@ a.card-card:visited {
 
 #card-frow .card-logo {
   background-color: #339be8;
+}
+
+#card-2n .card-logo {
+  background-color: #4f4f51;
 }
 
 #card-letsgo .card-logo {
