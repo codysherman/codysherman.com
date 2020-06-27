@@ -1,30 +1,8 @@
-/* Don't forget to vendor prefix */
-
-*:not(.letsGo-animate) {
-  transition: width 0.4s, height 0.4s, font-size 0.4s, font-weight 0.4s;
-}
-
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-  background-color: #f8f8f8;
-}
-
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
   padding-bottom: 30px;
+  font-size: 16px;
 }
 
 h1 {
@@ -33,6 +11,7 @@ h1 {
   color: #02a6a9;
   margin-top: 50px;
 }
+
 h2 {
   font-weight: 400;
   margin-bottom: 30px;
@@ -53,14 +32,12 @@ p {
   margin-bottom: 40px;
 }
 
-#social a {
-  margin-right: 15px;
-  font-size: 18px;
-}
-
+#social a,
 #social a:active,
 #social a:focus,
 #social a:visited {
+  margin-right: 15px;
+  font-size: 18px;
   text-decoration: none;
   color: #333;
 }
@@ -70,19 +47,13 @@ p {
   color: #02a6a9;
 }
 
-.card-card {
+.card {
   display: block;
   min-height: 270px;
   background-color: #fff;
   font-weight: 300;
   margin-bottom: 20px;
   position: relative;
-  -webkit-transition: box-shadow 0.3s;
-  transition: box-shadow 0.3s;
-}
-
-.card-card:hover {
-  box-shadow: 0 1px 7px 0 #a0a0a0;
 }
 
 .beta {
@@ -95,11 +66,11 @@ p {
   padding: 2px 5px;
 }
 
-a.card-card,
-a.card-card:hover,
-a.card-card:focus,
-a.card-card:active,
-a.card-card:visited {
+a.card,
+a.card:hover,
+a.card:focus,
+a.card:active,
+a.card:visited {
   text-decoration: none;
   color: #333;
 }
@@ -128,16 +99,8 @@ a.card-card:visited {
   background-color: #3ac371;
 }
 
-#card-internrocket .card-logo {
-  background-color: #f44336;
-}
-
 #card-begin .card-logo {
   background-color: #12d8b7;
-}
-
-#card-qikpix .card-logo {
-  background-color: #00c6e0;
 }
 
 .card-info {
